@@ -1,0 +1,71 @@
+:root {
+    --primary-color-light: #007bff;
+    --secondary-color-light: #6c757d;
+    --background-color-light: #ffffff;
+    --text-color-light: #333333;
+    --primary-color-dark: #adb5bd;
+    --secondary-color-dark: #6c757d;
+    --background-color-dark: #212529;
+    --text-color-dark: #ffffff;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,rgb(55, 194, 228),rgb(10, 47, 228));
+}
+.whole{
+    height: 100vh;
+}
+   
+
+.container{
+    border: 2px solid white; 
+    background-color: white;
+    border-radius: 8px;
+    /* width: 300px; */
+
+}
+.container h1{
+    
+    margin:12px 30px 12px 10px ;
+    
+}
+.container input,button{
+    font-size: medium;
+    font-weight: 400;
+    margin: 11px 11px;
+    padding:5px ;
+}
+.container2 img{
+    width: 100px;
+
+}
+#temp,#temp-degree{
+    font-size: xx-large;
+    font-weight: 700;
+}
+#weather-update,#location{
+    font-size: large;
+    font-weight: 700;
+    padding: 3px;
+}
+#location{
+    margin: auto 117px 114px 117px;
+    
+}
+#btn{
+    background-color: blue;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
